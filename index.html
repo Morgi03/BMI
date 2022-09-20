@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMI kalkulátor</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div>
+    <div id="site">
+    <div id="maindiv">
         <label>Írja be a cm-ben számított testmagasságát (cipő nélkül mérve:) <input type="number" id="magassag"></label><br /><br />
         <label>Írja be a kg-ban számított testsúlyát (cipő nélkül mérve:) <input type="number" id="suly"></label><br /><br />
         <button id="szamol">Számítás</button>
@@ -42,5 +45,6 @@
     <h3>Az IDEÁLIS TESTTÖMEGE: <span id="idealistomeg"></span></h3>
     <p id="kivanatosszelsoertek"></p>
     <p id="kivanatosszelsoertekszoveg">Kívánatos szélső értékek</p>
+</div>
 </body>
 </html>
