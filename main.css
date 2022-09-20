@@ -1,0 +1,47 @@
+#maindiv{
+    background-color: rgb(243 149 62);
+    padding: 3%;
+    width: 800px;
+    color: white;
+    margin: auto;
+    display: table;
+}
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+h3{
+    color: rgb(243 149 62);
+}
+#site{
+    margin: auto;
+    display: table;
+}
+button{
+    color:  rgb(243 149 62);
+    border: 0px;
+    height: 25px;
+}
+#kivanatosszelsoertekszoveg{
+    text-align: center;
+}
+table{
+    margin: auto;
+    display: block;
+}
+td{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+   padding-bottom: 27px;
+    width: 300px;
+    border-bottom: 1px solid black;
+    text-align: left;
+    margin: auto;
+}
+#magassag{
+    margin-left: 170px;
+}
+#suly{
+    margin-left: 218px;
+}
