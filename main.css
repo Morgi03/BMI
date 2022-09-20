@@ -28,6 +28,7 @@ button{
 table{
     margin: auto;
     display: block;
+    border-collapse: collapse;
 }
 td{
     padding-left: 0px;
@@ -44,4 +45,7 @@ td{
 }
 #suly{
     margin-left: 218px;
+}
+#bmi_ertek{
+    font-style: italic;
 }
