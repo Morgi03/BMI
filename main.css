@@ -24,14 +24,20 @@ button{
 }
 #kivanatosszelsoertekszoveg{
     text-align: center;
+    float:left;
+    margin-left: 120px;
+}
+#kivanatosszelsoertek{
+    text-align: center;
+    float:left;
+    color: rgb(243 149 62);
 }
 table{
     margin: auto;
-    display: block;
     border-collapse: collapse;
 }
 td{
-    padding-left: 0px;
+    padding-left: 15px;
     padding-right: 0px;
     padding-top: 10px;
    padding-bottom: 27px;
