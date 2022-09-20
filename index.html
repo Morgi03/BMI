@@ -4,9 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BMI kalkulátor</title>
 </head>
 <body>
-    WORKING....
+    <div>
+        <label>Írja be a cm-ben számított testmagasságát (cipő nélkül mérve:) <input type="number" id="magassag"></label><br /><br />
+        <label>Írja be a kg-ban számított testsúlyát (cipő nélkül mérve:) <input type="number" id="suly"></label><br /><br />
+        <button id="szamol">Számítás</button>
+    </div>
+    <h3>AZ ÖN BMI ÉRTÉKE: <span id="bmi_ertek"></span></h3>
+    <Table>
+        <tr id="Sovany">
+            <td><strong>18,5 vagy kevesebb</strong></td>
+            <td>SOVÁNY</td>
+        </tr>
+        <tr id="Normal">
+            <td><strong>18,6 - 24,9</strong></td>
+            <td>NORMÁL</td>
+        </tr>
+        <tr id="Tulsuly">
+            <td><strong>25 - 29,9</strong></td>
+            <td>TÚLSÚLY</td>
+        </tr>
+        <tr id="I_FokuElhizas">
+            <td><strong>30 - 34,9</strong></td>
+            <td>I. FOKÚ ELHÍZÁS</td>
+        </tr>
+        <tr id="II_FokuElhizas">
+            <td><strong>35 - 39,9</strong></td>
+            <td>II. FOKÚ ELHÍZÁS</td>
+        </tr>
+        <tr id="III_FokuElhizas">
+            <td><strong>40 vagy több</strong></td>
+            <td>III. FOKÚ ELHÍZÁS</td>
+        </tr>
+    </Table>
+    <h3>Az IDEÁLIS TESTTÖMEGE: <span id="idealistomeg"></span></h3>
+    <p id="kivanatosszelsoertek"></p>
+    <p id="kivanatosszelsoertekszoveg">Kívánatos szélső értékek</p>
 </body>
 </html>

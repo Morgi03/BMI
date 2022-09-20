@@ -1,4 +1,4 @@
-# [Név]
+# Morgován Nimród
 
 ## Hogyan kezdj neki?
 
